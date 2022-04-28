@@ -1,0 +1,52 @@
+# LOGS
+logs
+*.log
+npm-debug.log*
+
+# RUNTIME DATA
+pids
+*.pid
+*.seed
+
+# NODE-WAF CONFIGURATION
+.lock-wscript
+
+# COMPILED BINARY ADDONS (http://nodejs.org/api/addons.html)
+build/Release
+
+# DEPENDENCY DIRECTORY
+node_modules
+
+# VISUALSTUDIOCODE
+.settings
+
+# MACOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ICON MUST END WITH TWO \r
+Icon
+
+# THUMBNAILS
+._*
+
+# FILES THAT MIGHT APPEAR IN THE ROOT OF A VOLUME
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# DIRECTORIES POTENTIALLY CREATED ON REMOTE AFP SHARE
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# PROJECT FILES
+src-ranviermud
+src-soma
+deploy
