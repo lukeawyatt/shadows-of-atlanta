@@ -1,8 +1,4 @@
-# Shadows of Atlanta
-
-A Multi-User Domain game bundle for the RanvierMUD Engine.
-
-```
+```shell
 ########################################################################################
 #                                                                                      #
 #     .d8888b.  888                    888                                             #
@@ -25,3 +21,22 @@ A Multi-User Domain game bundle for the RanvierMUD Engine.
 #                                                                                      #
 ########################################################################################
 ```
+
+---
+
+**Shadows of Atlanta,** a Multi-User Domain game bundle for the RanvierMUD Engine.
+
+This repository is a game bundle and provisioner for the ***Shadows of Atlanta*** Multi-User Domain which leverages the Ranvier MUD Engine.  This project was started by Luke and **Liam** Wyatt (age 9) and heavily inspired by Svetlana Chmakova's Weirn Books.  SoA's outer goal is to successfully map a sub-sect of Atlanta, Georgia (US), while overlaying an alternate reality (alt history, occult, and haunting stories that exists locally) which emerges at varying times.  During these events, descriptions and interactions change from a modern depiction of the setting to one of the past which tells a unique story from the past at that exact location.
+
+### Requirements and Building
+
+Hold
+
+### Contributing
+
+Hold
+
+## Next Action
+
+* TODO(RUNNER): MULTIPLE ROOTS (MODULAR)
+* TODO(RUNNER): GAME SAVE PERSISTENCE DURING BUILD
