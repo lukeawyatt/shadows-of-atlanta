@@ -1,0 +1,13 @@
+{
+  "username": "Liam",
+  "characters": [
+    {
+      "username": "Harry",
+      "deleted": false
+    }
+  ],
+  "password": "$2a$10$hrzYGfrvqFTpk1qfrgNcIOvtu5YJO7RUiCxFsRjEn4Q8IZkJL0GU6",
+  "banned": false,
+  "deleted": false,
+  "metadata": {}
+}
