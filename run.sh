@@ -47,7 +47,10 @@ if [[ $MODE -eq 1 ]] || [[ $MODE -eq 2 ]]
 then 
     echo "STAGE: BUILDING..."
     REPOSRC="https://github.com/RanvierMUD/ranviermud.git"
-    LOCALREPO="src-ranviermud"
+    LOCALREPO="packages/ranviermud"
+    
+    echo "BACKING UP PERSISTENCE..."
+    cp -R "deploy/data/." "data/" 
 
     echo "DROPPING THE PREVIOUS BUILD..."
     rm -rf deploy
@@ -61,7 +64,7 @@ then
     else
         cd $LOCALREPO
         git pull $REPOSRC
-        cd ..
+        cd ../..
     fi
 
     echo "COPYING SOURCE TO DEPLOYMENT FOLDER..."
@@ -71,8 +74,11 @@ then
     rm -rf "deploy/bundles"
     rm -rf "deploy/data"
 
+    echo "COPYING OVER THE PERSISTED DATA..."
+    cp -R "data/." "deploy/data/"
+
     echo "COPYING OVER THE ENHANCED CONTENT..."
-    cp -R "src-content/." "deploy/"
+    cp -R "source/." "deploy/"
 
     echo "INSTALLING PREREQUISITES.."
     cd deploy
